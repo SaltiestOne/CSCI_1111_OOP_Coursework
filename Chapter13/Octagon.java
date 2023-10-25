@@ -50,7 +50,7 @@ class Octagon extends GeometricObject implements Comparable<Octagon>, Cloneable 
 		}
 	}
 	
-	public Octagon Clone() throws CloneNotSupportedException {
+	public Object Clone() throws CloneNotSupportedException {
 		
 		Octagon Octaclone = (Octagon)super.clone();
 		
