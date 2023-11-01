@@ -5,8 +5,11 @@ Welcome to Teest, the Modern Remaster of that game you played on your dad's old 
 ## The Game
 
 If you, the player, are not the Hero of this game, then let me introduce you. The Hero is quantumly-phrenologized being: 
+
 -"_He_" could be a light-skinned human, a dark-skinned elf, or a blue-skinned lizard. 
+
 -"_She_" could be wearing an old cloak, shiny plate mail, or a floofy ballgown. 
+
 -"_They_" could be a pair of twins, or three goblins in a trenchcoat.
 
 Even the Hero's past, personality, and procedures are better known by you than by me. All that the Hero needs to have are two working arms and the will to fight on. 
@@ -44,6 +47,7 @@ I managed to consolidate a lot of methods, but many of the Skills and Spells sti
 } else {
 ```
 <sub>(source comments excluded)</sub>
+
 There's some prior variables set ("heroLevel" and "statLevel" are integers defined from the action earlier in the method, used for scaling), but those are just convenience variables that Actions already have internal methods to get.
 Technically, the second line is useless as _Mana Burst_ has no cooldown (since it costs Mana, go figure), but I felt I should add it for future-proofing. Point is, it's arguably _one_ long line of code inside that if-else.
 
@@ -52,7 +56,7 @@ And while they aren't _exactly_ code, I think I wrote up some cool, creative, an
 
 
 
-##Appendix: Skill and Spell effects
+## Appendix: Skill and Spell effects
 
 ### Weapon level 2: ***Lunge***
 
@@ -83,7 +87,7 @@ Deals damage scaling from the _Shield_ stat. Has a coin-flip chance to outright 
 Restores a small amount of health to the user scaled from the _Magic_ stat. This amount is also reduced from the enemy's potential damage, possibly stunning them.
 
 
-###Magic level 2: ***Bolt***
+### Magic level 2: ***Bolt***
 
 Deals damage scaling from the _Magic_ stat. Its cheap cost makes it a good spammable attack option if the Hero has a weaker weapon.
 
